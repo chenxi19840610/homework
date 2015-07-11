@@ -3,8 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIH.RT.TPS.WebHost", "UIH.RT.TPS.WebHost\UIH.RT.TPS.WebHost.csproj", "{24EE80A8-F183-4203-B9F7-82F0B2DBB29C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{AD2A9768-7C77-45EE-9326-F1B76F67EDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIH.RT.TPS.Api", "UIH.RT.TPS.Api\UIH.RT.TPS.Api.csproj", "{413849C1-4341-4641-8780-3CD135C562D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{DE710B37-9D1A-4FEB-9E17-428D441A57E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIH.RT.TPS.SignalR", "UIH.RT.TPS.SignalR\UIH.RT.TPS.SignalR.csproj", "{A7CCAE95-7860-4335-AA63-8383E0DB5FE3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EE80A8-F183-4203-B9F7-82F0B2DBB29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EE80A8-F183-4203-B9F7-82F0B2DBB29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EE80A8-F183-4203-B9F7-82F0B2DBB29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EE80A8-F183-4203-B9F7-82F0B2DBB29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413849C1-4341-4641-8780-3CD135C562D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413849C1-4341-4641-8780-3CD135C562D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413849C1-4341-4641-8780-3CD135C562D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413849C1-4341-4641-8780-3CD135C562D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CCAE95-7860-4335-AA63-8383E0DB5FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CCAE95-7860-4335-AA63-8383E0DB5FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CCAE95-7860-4335-AA63-8383E0DB5FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CCAE95-7860-4335-AA63-8383E0DB5FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24EE80A8-F183-4203-B9F7-82F0B2DBB29C} = {AD2A9768-7C77-45EE-9326-F1B76F67EDC3}
+		{413849C1-4341-4641-8780-3CD135C562D8} = {DE710B37-9D1A-4FEB-9E17-428D441A57E1}
+		{A7CCAE95-7860-4335-AA63-8383E0DB5FE3} = {DE710B37-9D1A-4FEB-9E17-428D441A57E1}
 	EndGlobalSection
 EndGlobal
